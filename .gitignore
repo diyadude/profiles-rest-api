@@ -172,3 +172,32 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Vagrant files
+.vagrant/
+*.box
+
+# Virtual machine files
+*.vagrant
+*.vmwarevm
+*.vbox
+*.vbox-prev
+*.ovf
+*.ovf.zip
+*.vmdk
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other files/folders
+*.swp
+tasks.todo
